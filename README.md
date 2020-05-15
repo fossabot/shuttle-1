@@ -237,6 +237,7 @@ Architecture
 ### Models
 
 ![Object Model](doc/images/objectmodel.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmcpherrinm%2Fshuttle.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmcpherrinm%2Fshuttle?ref=badge_shield)
 
 Each {Project} has multiple {Commit Commits} or {Article Articles}.
 When a Commit or Article is created, it is scanned by {Importer Importers} for
@@ -448,3 +449,7 @@ actual run tests. Run `docker-compose -f docker-compose.test.yml down` when you
 are done testing to stop the running images.
 
 If you are not using Docker, run unit tests with the `rspec spec` command.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmcpherrinm%2Fshuttle.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmcpherrinm%2Fshuttle?ref=badge_large)
